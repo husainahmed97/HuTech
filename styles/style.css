@@ -33,3 +33,23 @@ small {
     margin-left: 410px;
     color: #FFFFFF;
 }
+
+/* media queri */
+
+@media only screen and (max-device-width : 767px) {
+    .mobile {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    small,
+    .footer-icon {
+        margin: 0px;
+    }
+}
