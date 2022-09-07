@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .bennar-caption {
     position: absolute;
     width: 671px;
@@ -46,6 +50,7 @@ small {
         flex-direction: column;
         justify-content: center;
         width: 100%;
+
     }
 
     small,
